@@ -1,0 +1,453 @@
+
+/*RESETEO*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+/*AJUSTES DE CUERPO*/
+/*****************************************************************************************************************************************/
+/*****************************************************************************************************************************************/
+/*****************************************************************************************************************************************/
+body{
+	background: url(../img/fondo1.jpg) no-repeat center center fixed;
+	background-size: 100%;
+	background-position: center;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+}
+
+div#vacio {
+	height: 600px;
+	width: 100%;
+	margin: auto;
+	
+}
+div#contenedor, div#body{
+	width: 100%;
+	height: 2300px;
+}
+
+div#contenedor{
+	background-color: black;
+}
+
+
+div#body{
+	background-color: white;
+	margin: auto;
+}	
+
+/*LETRAS DE PORTADA*/
+/******************************************************************************************************************************************/
+/******************************************************************************************************************************************/
+/******************************************************************************************************************************************/
+div#menu1, div#menu2{
+	background-color: white;
+	height: 50px;
+	width: 100%;
+	opacity: 0.5;
+	filter:alpha(opacity=5);
+	margin-top: 200px;
+}
+
+div#menu2{
+	background-color: red;
+	margin-top: 0px;
+}
+
+div#titulo, div#subtitulo{
+	
+	height: 80px;
+	max-width: 100%;
+	text-align: center;
+	font-size: 80px;
+	font: white;
+	line-height: 80px;
+	color: white;
+	background-color: blue;
+	opacity: 0.8;
+	filter:alpha(opacity=8);
+
+}
+div#subtitulo{
+	font-size: 40px;
+}
+
+/*QUIENES SOMOS*/
+/******************************************************************************************************************************************/
+/******************************************************************************************************************************************/
+/******************************************************************************************************************************************/
+div#presentacion{
+	background-color: #E6E6E6;
+	height: 300px;
+	max-width: 100%;
+	padding-top: 120px;
+	text-align: center;
+}
+
+/*PROYECTOS EN EJECUCION, PASADOS, FUTUROS*/
+/******************************************************************************************************************************************/
+/******************************************************************************************************************************************/
+/******************************************************************************************************************************************/
+div#galeria{
+	margin: auto;
+	height: 710px;
+	max-width: 100%;
+	background: url(../img/fondo2.jpg) no-repeat center;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+
+}
+div#titulo-pyt{
+	margin: auto;
+	height: 50px;
+	max-width: 100%;
+	text-align: center;
+	font-size: 40px;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	filter:alpha(opacity=8);
+}
+/*CLIENTES DE LA EMPRESA*/
+/******************************************************************************************************************************************/
+/******************************************************************************************************************************************/
+/******************************************************************************************************************************************/
+
+div#clientes{
+	margin: auto;
+	height: 710px;
+	max-width: 100%;
+	background: url(../img/fondo3.jpg) no-repeat center center;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+}
+div#titulo-clientes{
+	margin: auto;
+	height: 50px;
+	max-width: 100%;
+	text-align: center;
+	font-size: 40px;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+
+}
+div#clientes1, div#clientes2{
+	max-width: 100%;
+	height: 150px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+
+/*LOGOS DE MUNICIPALIDADES Y GOBIERNOS REGIONALES*/
+/******************************************************************************************************************************************/
+div#c11{
+	background: url(../img/logo1.jpg) center center;
+	
+}
+div#c11{
+	background: url(../img/logo1.jpg) center center;
+}
+div#c12{
+	background: url(../img/logo2.gif) center center;
+	
+}
+div#c13{
+	background: url(../img/logo3.jpg) center center;
+	
+}
+div#c14{
+	background: url(../img/logo4.jpg) center center;
+	
+}
+div#c14{
+	background: url(../img/logo4.jpg) center center;
+	
+}
+div#c15{
+	background: url(../img/logo5.jpg) center center;
+}
+
+div#c11, div#c12, div#c13, div#c14, div#c15{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 0.5em;
+	margin: auto;
+	margin-top: 25px;
+	margin-left: 140px;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+}
+/*EFECTO TRANSITION*/
+div#c11,div#c12,div#c13,div#c14,div#c15{
+	-ms-transition: all 0.5s ease-in;
+	/*para que interprete bien el internet explore*/
+	-moz-transition: all 0.5s ease-in;
+	/*mozilla*/
+	-o-transition: all 0.5s ease-in;
+	/*opera*/
+	-webkit-transition: all 0.5s ease-in;
+	/*chrome y safari*/
+	
+	opacity: 1;
+	filter:alpha(opacity=10);
+	/*opacidad 1=100%*/
+	/*el filter es para que internet explore lo pueda interpretar*/
+	transition: all 0.5s ease-in;
+}
+
+div#c11:hover,div#c12:hover,div#c13:hover,div#c14:hover,div#c15:hover{
+
+	-ms-transition: all 0.5s ease-out;
+	/*para que interprete bien el internet explore*/
+	-moz-transition: all 0.5s ease-out;
+	/*mozilla*/
+	-o-transition: all 0.5s ease-out;
+	/*opera*/
+	-webkit-transition: all 0.5s ease-out;
+	/*chrome y safari*/
+	opacity: 0.7;
+	filter:alpha(opacity=7);
+	transition: all 0.5s ease-out;
+}
+
+div#c21{
+	background: url(../img/logo6.jpg) center center;
+	
+}
+
+div#c22{
+	background: url(../img/logo7.jpg) center center;
+	
+}
+div#c23{
+	background: url(../img/logo8.jpg) center center;
+	
+}
+
+div#c24{
+	background: url(../img/logo9.jpg) center center;
+}
+
+div#c25{
+	background: url(../img/logo10.jpg) center center;
+	
+}
+
+div#c21, div#c22, div#c23, div#c24, div#c25{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 0.5em;
+	margin: auto;
+	margin-top: 25px;
+	margin-left: 140px;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+}
+
+/*EFECTO TRANSITION*/
+div#c21,div#c22,div#c23,div#c24,div#c25{
+	-ms-transition: all 0.5s ease-in;
+	/*para que interprete bien el internet explore*/
+	-moz-transition: all 0.5s ease-in;
+	/*mozilla*/
+	-o-transition: all 0.5s ease-in;
+	/*opera*/
+	-webkit-transition: all 0.5s ease-in;
+	/*chrome y safari*/
+	
+	opacity: 1;
+	filter:alpha(opacity=10);
+	/*opacidad 1=100%*/
+	/*el filter es para que internet explore lo pueda interpretar*/
+	transition: all 0.5s ease-in;
+}
+
+div#c21:hover,div#c22:hover,div#c23:hover,div#c24:hover,div#c25:hover{
+
+	-ms-transition: all 0.5s ease-out;
+	/*para que interprete bien el internet explore*/
+	-moz-transition: all 0.5s ease-out;
+	/*mozilla*/
+	-o-transition: all 0.5s ease-out;
+	/*opera*/
+	-webkit-transition: all 0.5s ease-out;
+	/*chrome y safari*/
+	opacity: 0.7;
+	filter:alpha(opacity=7);
+	transition: all 0.5s ease-out;
+}
+
+
+/*DATOS DE CONTACTO*/
+/******************************************************************************************************************************************/
+
+div#contacto{
+	background-color: black;
+	height: 600px;
+	max-width: 100%;
+}
+div#maps,div#datoshg{
+	height: 400px;
+	float: left;
+	margin: auto;
+	margin-top: 30px;
+}
+
+div#maps{
+	width: 900px;
+}
+div#datoshg{
+	background-color: black;
+	width: 449px;
+}
+
+div#encuentranos{
+	background-color: black;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	margin-top: 40px;
+	font-size: 20px;
+	color: white;
+
+}
+
+
+/*PIE DE PAGINA*/
+/******************************************************************************************************************************************/
+
+
+footer{
+	height: 300px;
+	max-width: 100%;
+	background-color: black;
+}
+
+/*REDES SOCIALES*/
+/******************************************************************************************************************************************/
+
+div#redsocial{
+	margin: auto;
+	height: 100px;
+	max-width: 100%;
+	background-color: #2E2E2E;
+}
+
+div#facebook{
+	background: url(../img/facebook.ico) no-repeat center center;
+}
+div#twitter{
+	background: url(../img/twitter.ico) no-repeat center center;
+}div#googleplus{
+	background: url(../img/googleplus.ico) no-repeat center center;
+}
+div#youtube{
+	background: url(../img/youtube.ico) no-repeat center center;
+}
+
+div#facebook,div#twitter,div#googleplus,div#youtube{
+	width: 80px;
+	height: 80px;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	float: left;
+	margin-top: 10px;
+	margin-left:205px;
+}
+
+/*EFECTO TRANSITION*/
+div#facebook,div#twitter,div#googleplus,div#youtube{
+	-ms-transition: all 0.5s ease-in;
+	/*para que interprete bien el internet explore*/
+	-moz-transition: all 0.5s ease-in;
+	/*mozilla*/
+	-o-transition: all 0.5s ease-in;
+	/*opera*/
+	-webkit-transition: all 0.5s ease-in;
+	/*chrome y safari*/
+	
+	opacity: 1;
+	filter:alpha(opacity=10);
+	/*opacidad 1=100%*/
+	/*el filter es para que internet explore lo pueda interpretar*/
+	transition: all 0.5s ease-in;
+}
+div#facebook:hover,div#twitter:hover,div#googleplus:hover,div#youtube:hover{
+
+	-ms-transition: all 0.5s ease-out;
+	/*para que interprete bien el internet explore*/
+	-moz-transition: all 0.5s ease-out;
+	/*mozilla*/
+	-o-transition: all 0.5s ease-out;
+	/*opera*/
+	-webkit-transition: all 0.5s ease-out;
+	/*chrome y safari*/
+	opacity: 0.7;
+	filter:alpha(opacity=7);
+	transition: all 0.5s ease-out;
+}
+div#firma{
+	max-width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	margin: auto;
+	margin-top: 75px;
+
+}
+
+/*CLASES*/
+/******************************************************************************************************************************************/
+
+
+.flexslider{
+	max-width: 80%;
+	height: 600px;
+	margin: auto;
+	background-size: 100%;
+
+}
+
+.parrafo{
+	font-size: 30px;
+	font-style: italic;
+}
+
+.texto1{
+	opacity: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
